@@ -15,8 +15,8 @@ Construido con
 
 Servidor alojado:
 - Frontend Mentor - [@amigos81](https://www.frontendmentor.io/profile/amigos81)
-- [GitHub Pages]()
-- [Netlify]()
+- [GitHub Pages](https://github.com/amigos81/article-preview-component)
+- [Netlify](https://funny-torte-73a258.netlify.app/)
 
 ## Autor
 
