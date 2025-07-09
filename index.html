@@ -53,16 +53,24 @@
                 <div class="toast-arrow"></div>
               </div>
             </div>
-            <button type="button" id="btnToast" class="btn-toast">
-              <ion-icon name="arrow-redo"></ion-icon>
+            <button type="button" id="btnToast"  class="btn-toast" aria-label="toast">
+              <ion-icon name="arrow-redo" role="img"></ion-icon>
             </button>
           </div>
-        
         </div>
       </div>
     </main>
     <script>
       const btnToast = document.getElementById("btnToast");
+
+      // Option 1: direct assignment
+      // button.onclick = function () {
+      //   console.log("You clicked me!");
+      // };
+      // Option 2: using the `addEventListener` method
+      // button.addEventListener("click", function () {
+      //   console.log("You clicked me!");
+      // });
 
       btnToast.addEventListener("click", function () {
         toast.classList.toggle("show");
